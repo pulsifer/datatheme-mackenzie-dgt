@@ -1,0 +1,222 @@
+{
+    "name": "dgt_data",
+    "path": "dgt_data.csv",
+    "schema": {
+        "fields": [
+            {
+                "name": "site_name",
+                "type": "string",
+                "raises": "error",
+                "constraints": {
+                    "required": true,
+                    "maxLength": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "sample_name",
+                "type": "string",
+                "raises": "error",
+                "constraints": {
+                    "required": true,
+                    "maxLength": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "site_code",
+                "type": "string",
+                "raises": "error",
+                "constraints": {
+                    "required": true,
+                    "maxLength": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "date_in",
+                "type": "date",
+                "raises": "error",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "date_out",
+                "type": "date",
+                "raises": "error",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "methyl_mercury",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "vanadium",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "aluminum",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "sd_al",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "manganese",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "sd_mn",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "iron",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "sd_fe",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "cobalt",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "sd_co",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "nickel",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "sd_ni",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "copper",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "sd_cu",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "zinc",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "sd_zn",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "cadmium",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "sd_cd",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "lead",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            },
+            {
+                "name": "sd_pb",
+                "type": "numeric",
+                "constraints": {
+                    "required": true,
+                    "type": true
+                }
+            }
+        ]
+    },
+    "primaryKey": [
+        "sample_name",
+        "site_code",
+        "date_in",
+        "date_out"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "mackenzie.dgt",
+    "version": "1.0.1",
+    "repository": "http://github.com/tesera/datatheme-mackenzie-dgt.git",
+    "author": "Yves Richard",
+    "description": "Datatheme for Mackenzie Basin DGT data.",
+    "schemas": [
+        "./schemas/dgt_data.json",
+        "./schemas/dgt_meta.json"    
+    ]
+}

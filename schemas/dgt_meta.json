@@ -1,0 +1,80 @@
+{
+  "name": "dgt_meta",
+  "path": "dgt_meta.csv",
+  "schema": {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string",
+        "raises": "error",
+        "constraints": {
+          "required": true,
+          "maxLength": true,
+          "type": true
+        }
+      },
+      {
+        "name": "extents",
+        "type": "string",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      },
+      {
+        "name": "citations",
+        "type": "string",
+        "raises": "error",
+        "constraints": {
+          "required": true,
+          "maxLength": true,
+          "type": true
+        }
+      },
+      {
+        "name": "keywords",
+        "type": "string",
+        "raises": "error",
+        "constraints": {
+          "required": true,
+          "maxLength": true,
+          "type": true
+        }
+      },
+      {
+        "name": "format",
+        "type": "string",
+        "raises": "error",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "raises": "error",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      },
+      {
+        "name": "link",
+        "type": "string",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      },
+      {
+        "name": "date_uploaded",
+        "type": "date",
+        "constraints": {
+          "required": true,
+          "type": true
+        }
+      }
+    ]
+  }
+}

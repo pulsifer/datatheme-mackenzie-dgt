@@ -1,0 +1,27 @@
+{
+  "name": "datatheme-mackenzie-dgt",
+  "version": "1.0.1",
+  "description": "Datapackage theme for Mackenzie Basin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tesera/datatheme-mackenzie-dgt.git"
+  },
+  "keywords": [
+    "datapackage",
+    "opendata"
+  ],
+  "author": "Yves Richard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tesera/datatheme-mackenzie-dgt/issues"
+  },
+  "devDependencies": {
+    "JSONStream": "~0.10.0",
+    "lodash": "~3.5.0",
+    "event-stream": "~3.3.0"
+  }
+}

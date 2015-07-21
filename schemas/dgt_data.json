@@ -9,28 +9,23 @@
                 "raises": "error",
                 "constraints": {
                     "required": true,
-                    "maxLength": true,
-                    "type": true
+                    "maxLength": 100
                 }
             },
             {
                 "name": "sample_name",
                 "type": "string",
-                "raises": "error",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "maxLength": true,
-                    "type": true
+                    "required": true
                 }
             },
             {
                 "name": "site_code",
                 "type": "string",
-                "raises": "error",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "maxLength": true,
-                    "type": true
+                    "required": true
                 }
             },
             {
@@ -38,8 +33,7 @@
                 "type": "date",
                 "raises": "error",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "required": true
                 }
             },
             {
@@ -47,168 +41,167 @@
                 "type": "date",
                 "raises": "error",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "required": true
                 }
             },
             {
                 "name": "methyl_mercury",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "vanadium",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "aluminum",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "sd_al",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "manganese",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "sd_mn",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "iron",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "sd_fe",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "cobalt",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "sd_co",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "nickel",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "sd_ni",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "copper",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "sd_cu",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "zinc",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "sd_zn",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "cadmium",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "sd_cd",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "lead",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             },
             {
                 "name": "sd_pb",
                 "type": "numeric",
+                "raises": "warning",
                 "constraints": {
-                    "required": true,
-                    "type": true
+                    "minimum": 0
                 }
             }
         ]

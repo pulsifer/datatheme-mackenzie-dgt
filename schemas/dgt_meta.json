@@ -8,17 +8,14 @@
         "type": "string",
         "raises": "error",
         "constraints": {
-          "required": true,
-          "maxLength": true,
-          "type": true
+          "required": true
         }
       },
       {
         "name": "extents",
         "type": "string",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       },
       {
@@ -26,9 +23,7 @@
         "type": "string",
         "raises": "error",
         "constraints": {
-          "required": true,
-          "maxLength": true,
-          "type": true
+          "required": true
         }
       },
       {
@@ -36,9 +31,7 @@
         "type": "string",
         "raises": "error",
         "constraints": {
-          "required": true,
-          "maxLength": true,
-          "type": true
+          "required": true
         }
       },
       {
@@ -46,8 +39,7 @@
         "type": "string",
         "raises": "error",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       },
       {
@@ -55,24 +47,21 @@
         "type": "string",
         "raises": "error",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       },
       {
         "name": "link",
         "type": "string",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       },
       {
         "name": "date_uploaded",
         "type": "date",
         "constraints": {
-          "required": true,
-          "type": true
+          "required": true
         }
       }
     ]

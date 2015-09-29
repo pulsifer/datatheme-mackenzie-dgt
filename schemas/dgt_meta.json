@@ -1,69 +1,74 @@
 {
-  "name": "dgt_meta",
-  "path": "dgt_meta.csv",
-  "schema": {
-    "fields": [
-      {
-        "name": "title",
-        "type": "string",
-        "raises": "error",
-        "constraints": {
-          "required": true
-        }
-      },
-      {
-        "name": "extents",
-        "type": "string",
-        "constraints": {
-          "required": true
-        }
-      },
-      {
-        "name": "citations",
-        "type": "string",
-        "raises": "error",
-        "constraints": {
-          "required": true
-        }
-      },
-      {
-        "name": "keywords",
-        "type": "string",
-        "raises": "error",
-        "constraints": {
-          "required": true
-        }
-      },
-      {
-        "name": "format",
-        "type": "string",
-        "raises": "error",
-        "constraints": {
-          "required": true
-        }
-      },
-      {
-        "name": "description",
-        "type": "string",
-        "raises": "error",
-        "constraints": {
-          "required": true
-        }
-      },
-      {
-        "name": "link",
-        "type": "string",
-        "constraints": {
-          "required": true
-        }
-      },
-      {
-        "name": "date_uploaded",
-        "type": "date",
-        "constraints": {
-          "required": true
-        }
+  "fields": [
+    {
+      "name": "title",
+      "title": "Title",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true
       }
-    ]
-  }
+    },
+    {
+      "name": "description",
+      "title": "Description",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "location",
+      "title": "Location",
+      "type": "geojson",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "extents",
+      "title": "Extents",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "citations",
+      "title": "Citations",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "keywords",
+      "title": "Keywords",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "format",
+      "title": "Format",
+      "type": "string",
+      "raises": "error",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "link",
+      "title": "Link",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    }
+  ]
 }

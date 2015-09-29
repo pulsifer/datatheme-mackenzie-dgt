@@ -1,11 +1,23 @@
 {
-    "name": "mackenzie.dgt",
-    "version": "1.0.1",
-    "repository": "http://github.com/tesera/datatheme-mackenzie-dgt.git",
-    "author": "Yves Richard",
-    "description": "Datatheme for Mackenzie Basin DGT data.",
-    "schemas": [
-        "./schemas/dgt_data.json",
-        "./schemas/dgt_meta.json"    
-    ]
+  "name": "mackenzie.dgt",
+  "version": "1.0.1",
+  "repository": "http://github.com/tesera/datatheme-mackenzie-dgt.git",
+  "author": "Yves Richard",
+  "description": "Datatheme for Mackenzie Basin DGT data.",
+  "resources": [
+    {
+      "name": "dgt_data",
+      "title": "DGT Data",
+      "path": "dgt_data.csv",
+      "validator": "http://s3.amazonaws.com/tesera.data.themes/mackenzie.dgt/awk/dgt_data.awk",
+      "schema": "./schemas/dgt_data.json"
+    },
+    {
+      "name": "dgt_meta",
+      "title": "DGT Meta",
+      "path": "dgt_meta.csv",
+      "validator": "http://s3.amazonaws.com/tesera.data.themes/mackenzie.dgt/awk/dgt_meta.awk",
+      "schema": "./schemas/dgt_meta.json"
+    }
+  ]
 }

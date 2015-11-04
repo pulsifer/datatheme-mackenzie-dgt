@@ -6,8 +6,7 @@
       "type": "string",
       "raises": "error",
       "constraints": {
-        "required": true,
-        "maxLength": 100
+        "required": true
       }
     },
     {

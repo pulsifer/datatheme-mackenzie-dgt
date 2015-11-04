@@ -12,11 +12,7 @@
     {
       "name": "description",
       "title": "Description",
-      "type": "string",
-      "raises": "error",
-      "constraints": {
-        "required": true
-      }
+      "type": "string"
     },
     {
       "name": "location",
@@ -30,45 +26,57 @@
     {
       "name": "extents",
       "title": "Extents",
-      "type": "string",
-      "constraints": {
-        "required": true
-      }
+      "type": "string"
     },
     {
-      "name": "citations",
-      "title": "Citations",
-      "type": "string",
-      "raises": "error",
-      "constraints": {
-        "required": true
-      }
+      "name": "qa_qc",
+      "title": "QA QC",
+      "type": "string"
     },
     {
-      "name": "keywords",
-      "title": "Keywords",
-      "type": "string",
-      "raises": "error",
-      "constraints": {
-        "required": true
-      }
+      "name": "equipment",
+      "title": "Equipment",
+      "type": "string"
     },
     {
-      "name": "format",
-      "title": "Format",
-      "type": "string",
-      "raises": "error",
-      "constraints": {
-        "required": true
-      }
+      "name": "sampler",
+      "title": "Sampler",
+      "type": "string"
     },
     {
-      "name": "link",
-      "title": "Link",
-      "type": "string",
-      "constraints": {
-        "required": true
-      }
+      "name": "lab",
+      "title": "Lab",
+      "type": "string"
+    },
+    {
+      "name": "depth",
+      "title": "Depth",
+      "type": "string"
+    },
+    {
+      "name": "matrix",
+      "title": "Matrix",
+      "type": "string"
+    },
+    {
+      "name": "related",
+      "title": "Related",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "title": "Type",
+      "type": "string"
+    },
+    {
+      "name": "series",
+      "title": "Series",
+      "type": "string"
+    },
+    {
+      "name": "comments",
+      "title": "Comments",
+      "type": "string"
     }
   ]
 }

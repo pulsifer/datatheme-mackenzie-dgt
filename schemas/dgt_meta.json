@@ -51,7 +51,7 @@
     {
       "name": "depth",
       "title": "Depth",
-      "type": "string"
+      "type": "number"
     },
     {
       "name": "matrix",

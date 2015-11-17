@@ -30,10 +30,11 @@
     {
       "name": "date_in",
       "title": "Date In",
-      "type": "date",
+      "type": "string",
       "raises": "error",
       "constraints": {
-        "required": true
+        "required": true,
+        "pattern": "/([0-9][0-9]?\\/[0-9][0-9]?\\/[0-9][0-9][0-9]?[0-9]?)/"
       }
     },
     {

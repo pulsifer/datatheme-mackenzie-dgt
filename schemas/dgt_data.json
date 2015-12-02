@@ -73,26 +73,8 @@
       }
     },
     {
-      "name": "sd_al",
-      "title": "SD Al",
-      "type": "number",
-      "raises": "warning",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
       "name": "manganese",
       "title": "Manganese (ug/L)",
-      "type": "number",
-      "raises": "warning",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
-      "name": "sd_mn",
-      "title": "SD Mn",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -109,26 +91,8 @@
       }
     },
     {
-      "name": "sd_fe",
-      "title": "SD Fe",
-      "type": "number",
-      "raises": "warning",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
       "name": "cobalt",
       "title": "Cobalt (ug/L)",
-      "type": "number",
-      "raises": "warning",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
-      "name": "sd_co",
-      "title": "SD Co",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -145,26 +109,8 @@
       }
     },
     {
-      "name": "sd_ni",
-      "title": "SD Ni",
-      "type": "number",
-      "raises": "warning",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
       "name": "copper",
       "title": "Copper (ug/L)",
-      "type": "number",
-      "raises": "warning",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
-      "name": "sd_cu",
-      "title": "SD Cu",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -181,15 +127,6 @@
       }
     },
     {
-      "name": "sd_zn",
-      "title": "SD Zn",
-      "type": "number",
-      "raises": "warning",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
       "name": "cadmium",
       "title": "Cadmium (ug/L)",
       "type": "number",
@@ -199,26 +136,8 @@
       }
     },
     {
-      "name": "sd_cd",
-      "title": "SD Cd",
-      "type": "number",
-      "raises": "warning",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
       "name": "lead",
       "title": "Lead (ug/L)",
-      "type": "number",
-      "raises": "warning",
-      "constraints": {
-        "minimum": 0
-      }
-    },
-    {
-      "name": "sd_pb",
-      "title": "SD Pb",
       "type": "number",
       "raises": "warning",
       "constraints": {

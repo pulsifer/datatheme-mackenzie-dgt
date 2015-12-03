@@ -11,12 +11,9 @@
     },
     {
       "name": "sample_name",
-      "title": "Site Name as appears on Sample",
+      "title": "Sample Name",
       "type": "string",
-      "raises": "warning",
-      "constraints": {
-        "required": true
-      }
+      "raises": "warning"
     },
     {
       "name": "site_code",

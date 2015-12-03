@@ -19,10 +19,7 @@
       "name": "site_code",
       "title": "Site Code",
       "type": "string",
-      "raises": "warning",
-      "constraints": {
-        "required": true
-      }
+      "raises": "warning"
     },
     {
       "name": "date_in",

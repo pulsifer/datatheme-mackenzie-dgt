@@ -140,6 +140,24 @@
       "constraints": {
         "minimum": 0
       }
+    },
+    {
+      "name": "arsenic",
+      "title": "Arsenic (ug/L)",
+      "type": "number",
+      "raises": "warning",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "selenium",
+      "title": "Selenium (ug/L)",
+      "type": "number",
+      "raises": "warning",
+      "constraints": {
+        "minimum": 0
+      }
     }
   ]
 }

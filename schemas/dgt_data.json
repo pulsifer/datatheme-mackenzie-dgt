@@ -41,7 +41,8 @@
     },
     {
       "name": "methyl_mercury",
-      "title": "Methyl Mercury (ng/L)",
+      "title": "Methyl Mercury",
+      "unit": "ng/L",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -50,7 +51,8 @@
     },
     {
       "name": "vanadium",
-      "title": "Vanadium (ug/L)",
+      "title": "Vanadium",
+      "unit": "ug/L",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -59,7 +61,8 @@
     },
     {
       "name": "aluminum",
-      "title": "Aluminum (ug/L)",
+      "title": "Aluminum",
+      "unit": "ug/L",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -68,7 +71,8 @@
     },
     {
       "name": "manganese",
-      "title": "Manganese (ug/L)",
+      "title": "Manganese",
+      "unit": "ug/L",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -77,7 +81,8 @@
     },
     {
       "name": "iron",
-      "title": "Iron (ug/L)",
+      "title": "Iron",
+      "unit": "ug/L",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -86,7 +91,8 @@
     },
     {
       "name": "cobalt",
-      "title": "Cobalt (ug/L)",
+      "title": "Cobalt",
+      "unit": "ug/L",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -95,7 +101,8 @@
     },
     {
       "name": "nickel",
-      "title": "Nickel (ug/L)",
+      "title": "Nickel",
+      "unit": "ug/L",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -104,7 +111,8 @@
     },
     {
       "name": "copper",
-      "title": "Copper (ug/L)",
+      "title": "Copper",
+      "unit": "ug/L",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -113,7 +121,8 @@
     },
     {
       "name": "zinc",
-      "title": "Zinc (ug/L)",
+      "title": "Zinc",
+      "unit": "ug/L",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -122,7 +131,8 @@
     },
     {
       "name": "cadmium",
-      "title": "Cadmium (ug/L)",
+      "title": "Cadmium",
+      "unit": "ug/L",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -131,7 +141,8 @@
     },
     {
       "name": "lead",
-      "title": "Lead (ug/L)",
+      "title": "Lead",
+      "unit": "ug/L",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -140,7 +151,8 @@
     },
     {
       "name": "arsenic",
-      "title": "Arsenic (ug/L)",
+      "title": "Arsenic",
+      "unit": "ug/L",
       "type": "number",
       "raises": "warning",
       "constraints": {
@@ -149,7 +161,8 @@
     },
     {
       "name": "selenium",
-      "title": "Selenium (ug/L)",
+      "title": "Selenium",
+      "unit": "ug/L",
       "type": "number",
       "raises": "warning",
       "constraints": {

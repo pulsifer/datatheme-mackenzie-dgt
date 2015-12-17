@@ -1,0 +1,236 @@
+{
+  "fields": [
+    {
+      "name": "file_identifier",
+      "title": "File Identifier",
+      "type": "string"
+    },
+    {
+      "name": "language",
+      "title": "Language",
+      "type": "string"
+    },
+    {
+      "name": "character_set",
+      "title": "Character Set",
+      "type": "string"
+
+    },
+    {
+      "name": "hierarchy_level",
+      "title": "Hierarchy Level",
+      "type": "string"
+    },
+    {
+      "name": "contact_person",
+      "title": "Contact Person",
+      "type": "string"
+    },
+    {
+      "name": "contact_organization",
+      "title": "Contact Organization",
+      "type": "string"
+    },
+    {
+      "name": "contact_address",
+      "title": "Address",
+      "type": "string"
+    },
+    {
+      "name": "contact_city",
+      "title": "City",
+      "type": "number"
+    },
+    {
+      "name": "contact_province",
+      "title": "Province",
+      "type": "string"
+    },
+    {
+      "name": "contact_postal_code",
+      "title": "Postal Code",
+      "type": "string"
+    },
+    {
+      "name": "contact_email",
+      "title": "Email",
+      "type": "string"
+    },
+    {
+      "name": "contact_phone",
+      "title": "Phone Number",
+      "type": "string"
+    },
+    {
+      "name": "contact_website",
+      "title": "Comments",
+      "type": "string"
+    },
+       {
+      "name": "contact_role",
+      "title": "Role",
+      "type": "string"
+    },
+    {
+      "name": "contact_date",
+      "title": "Date Stamp",
+      "type": "string"
+    },
+    {
+      "name": "contact_meta_name",
+      "title": "Metadata Standard Name",
+      "type": "string"
+    },
+    {
+      "name": "contact_meta_version",
+      "title": "Metadata Standard Version",
+      "type": "number"
+    },
+    {
+      "name": "contact_dataset_uri",
+      "title": "dataSetURI",
+      "type": "string"
+    },
+    {
+      "name": "responsible_parties",
+      "title": "Responsible Parties",
+      "type": "string"
+    },
+    {
+      "name": "recommended_citation",
+      "title": "Recommended Citation",
+      "type": "string"
+    },
+    {
+      "name": "purpose",
+      "title": "Purpose",
+      "type": "string"
+    },
+    {
+      "name": "abstract",
+      "title": "Abstract",
+      "type": "string"
+      },
+    {
+      "name": "supplemental_information",
+      "title": "Supplemental Information",
+      "type": "string"
+    },
+    {
+      "name": "topic_category",
+      "title": "Topic Category",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "title": "Status",
+      "type": "string"
+    },
+    {
+      "name": "keywords",
+      "title": "Keywords",
+      "type": "string"
+    },
+    {
+      "name": "thesaurus_name",
+      "title": "Thesaurus Name",
+      "type": "string"
+    },
+    {
+      "name": "use_constraints",
+      "title": "Use Constraints",
+      "type": "string"
+    },
+    {
+      "name": "access_contraints",
+      "title": "Access Constraints",
+      "type": "string"
+    },
+    {
+      "name": "west_long",
+      "title": "West Bound Longitude",
+      "type": "string"
+    },
+    {
+      "name": "east_long",
+      "title": "East Bound Longitude",
+      "type": "string"
+
+    },
+    {
+      "name": "north_lat",
+      "title": "North Bound Latitude",
+      "type": "string"
+    },
+    {
+      "name": "south_lat",
+      "title": "South Bound Latitude",
+      "type": "string"
+    },
+    {
+      "name": "begin_date",
+      "title": "Begin Date",
+      "type": "date"
+    },
+    {
+      "name": "end_date",
+      "title": "End Date",
+      "type": "date"
+    },
+    {
+      "name": "distribution_organization",
+      "title": "Contact Organization",
+      "type": "string"
+    },
+    {
+      "name": "distribution_person",
+      "title": "Contant Person",
+      "type": "string"
+    },
+    {
+      "name": "distribution_position",
+      "title": "Contant Position",
+      "type": "string"
+    },
+    {
+      "name": "distribution_address",
+      "title": "Address",
+      "type": "string"
+    },
+    {
+      "name": "distribution_city",
+      "title": "City",
+      "type": "number"
+    },
+    {
+      "name": "distribution_province",
+      "title": "Province",
+      "type": "string"
+    },
+    {
+      "name": "distribution_postal_code",
+      "title": "Postal Code",
+      "type": "string"
+    },
+    {
+      "name": "distribution_country",
+      "title": "Country",
+      "type": "string"
+    },
+    {
+      "name": "distribution_phone",
+      "title": "Phone",
+      "type": "string"
+    },
+    {
+      "name": "distribution_email",
+      "title": "Email",
+      "type": "string"
+    },
+    {
+      "name": "maintenance_frequency",
+      "title": "Maintenance Frequency",
+      "type": "string"
+    }
+  ]
+}
